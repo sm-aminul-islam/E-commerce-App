@@ -1,3 +1,4 @@
+import 'package:catalog_app/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         children: [],
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
